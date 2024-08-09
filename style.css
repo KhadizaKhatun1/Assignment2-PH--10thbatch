@@ -183,7 +183,7 @@ header{
   margin: 0 auto;
   margin-top: 50px;
 }
-.habit-img{
+.habit-img, .run{
   max-width: 1440px;
   margin: 0 auto;
   border: 2px solid aqua;
@@ -197,7 +197,7 @@ header{
   text-align: center;
   margin-bottom: 50px;
 }
-.habit-title{
+.habit-title, .bmi-title{
   font-size: 3rem;
   font-weight: 900;
 }
@@ -212,12 +212,81 @@ header{
 .habit-sub-title{
   margin-top: 26px;
 }
+/* run section */
+.run{
+  border: 2px solid red;
+  background-color: rgb(34, 34, 34);
+  border-radius: 1.125rem;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.run-img{
+  border: 2px solid blue;
+ 
+ margin-top: 30px;
+ margin-bottom: 30px;
+ 
+ border-radius: 1.125rem;
+  
+}
+.run-container{
+  border: 2px solid aqua;
+  width: 443px;
+  margin: 41px 160px 40px 54px;
+}
+.run-title{
+  font-size: 3rem;
+  font-weight: 900;
+}
+/* bmi calculator */
+.bmi{
+  max-width: 671px;
+  margin: 0 auto;
+  margin-bottom: 88px;
+}
+.bmi-title{
+  margin-bottom: 14px;
+}
 
+.bmi-calculator{
+  background-color: rgb(34, 34, 34);
+}
+.chart{
+  margin-left: 189px;
+}
 
+.bmi-table{
+  width: 310px;
+  
+}
+table,tr, th, td{
+  border: 1px solid rgba(255, 255, 255, 0.10) ;
+  border-collapse: collapse;
+  padding: 5px 15px 5px 5px;
+}
+th{
+  font-size: 1rem;
+  font-weight: 500;
+}
+td{
+  font-size: 0.875rem;
+  font-weight: 400;
+  color:  rgba(255, 255, 255, 0.5);;
+}
+.chart-title{
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+.calculation{
+  width: 577px;
+}
+.calculate-bmi{
+
+}
 
 /* media query for small device */
 @media screen and (max-width: 576px) {
-  .habit-img{
+  .habit-img, .run{
     flex-direction: column;
   }
   .btn-img{
@@ -286,15 +355,27 @@ header{
 .habit-container{
   margin-top: 350px;
 }
-.habit-title{
+.habit-title, .run-title{
   font-size: 2rem;
 }
-.habit-description{
+.habit-description, .run-description{
   font-size: 0.8rem;
 }
 .movement, .time, .practice, .weight-loss{
  
   margin-bottom: 20px;
+ }
+ /* run section style */
+ .run-img{
+  width: 100%;
+  
+ }
+ .run-container{
+  margin: 0px;
+  width: 100%;
+ }
+ .run-btn{
+  margin-left: 20%;
  }
 
 }
