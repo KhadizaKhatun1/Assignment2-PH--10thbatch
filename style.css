@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+
+  #shape{
+    font-family : Miama , sans-serif;
+    font-style : italic
+  }
+  /* shared style */
+  /* dark red */
+  .text-color1{
+    color: rgb(230, 83, 60);
+  }
+  /* white color */
+  .text-color2{
+    color: rgb(255, 255, 255);
+  }
+  /* white with opacity */
+  .text-color3{
+    color: rgba(239, 237, 232, 0.65);
+  }
+  /* gray */
+  .text-color4{
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .bg-gray{
+    background-color: rgba(255, 255, 255, 0.10);
+  }
+  .bg-black{
+    background-color: rgba(17, 17, 17, 1.00);
+  }
+
+  .display-flex{
+    display: flex;
+}
+.hidden{
+  display: none;
+}
+.btn-primary{
+  width: 242px;
+  background-color:rgb(230, 83, 60) ;
+  padding: 16px 40px;
+  border-radius: 2.625rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-right: 5px;
+  
+}
+.btn-secondary{
+  width: 242px;
+  background-color: black;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 16px 40px;
+  border-radius: 2.625rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  
+}
+.btn1{
+  padding: 17px 24px;
+  background-color: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.1) ;
+  border-radius: 0.75rem;
+}
+.btn2{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.75rem;
+  background: rgba(48, 48, 48, 0.54);
+  padding: 20px;
+  
+}
+.hidden{
+  display: none;
+}
+
+/* navbar style */
+header{
+  border: 2px solid red;
+  height: 715px;
+}
+.navbar{
+  justify-content: space-between;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-links{
+  margin-top: 50px;
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 600;
+
+}
+.navbar, .banner{
+  max-width: 1444px;
+  margin: 0 auto;
+}
+.brand{
+  font-weight: 800;
+  font-size: 2.25rem;
+}
+#home{
+  width: 92px;
+  padding: 8px 20px;
+  background-color:rgb(230, 83, 60) ;
+  border-radius: 2.875rem;
+}
+
+.banner-title{
+  font-size: 4.875rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+.banner-description{
+  margin-bottom: 20px;
+}
+.workout-video{
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.workout-tutorial{
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 900;
+}
+.banner-container{
+  margin-right: 167px;
+  
+}
+
+.btn-img{
+  width: 349px;
+  border: 2px solid red;
+  position: absolute;
+  left: 900px;
+  top: 140px;
+  
+}
+.btn1{
+  border: 2px solid blue;
+  position: absolute;
+  left: 1107px;
+  top: 260px;
+  z-index: 1;
+  text-align: center;
+}
+.btn2{
+  border: 2px solid blue;
+  position: absolute;
+  left: 764px;
+  top: 556px;
+  z-index: 1;
+  text-align: center;
+}
+.shape{
+  width: 40px;
+  height: 40px;
+  background-color:rgb(230, 83, 60) ;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top:15px ;
+  
+}
+.ham-burger{
+  display: none;
+}
+.hidden{
+  display: none;
+}
+/* main section starts here */
+.habit{
+  border: 2px solid red;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.habit-img{
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 2px solid aqua;
+}
+
+/* habit section */
+.habit-container{
+  border: 2px solid blue;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.habit-title{
+  font-size: 3rem;
+  font-weight: 900;
+}
+.habit-img1{
+  border-radius: 50%;
+  gap: 25px;
+}
+.movement, .time, .practice, .weight-loss{
+ 
+ text-align: center;
+}
+.habit-sub-title{
+  margin-top: 26px;
+}
+
+
+
+/* media query for small device */
+@media screen and (max-width: 576px) {
+  .habit-img{
+    flex-direction: column;
+  }
+  .btn-img{
+    position: absolute;
+    width: 353px;
+    height: 588px;
+    left: 8px;
+    top: 450px;
+  }
+  .btn1{
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    left: 200px;
+    top: 510px;
+    
+  }
+  .btn2{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    left: 10px;
+    top: 700px;
+}
+.banner{
+  margin-bottom: 650px;
+}
+ .banner-container{
+  margin: 0;
+ }
+ 
+ .banner-title{
+  font-size: 2rem;
+ }
+ .nav-links{
+  display: none;
+ }
+ .ham-burger{
+  display:block;
+  
+}
+.workout-video{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.banner-description{
+  font-size: 0.75rem;
+}
+.workout-tutorial{
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.btn-primary, .btn-secondary{
+  font-size: 0.7rem;
+  width: 173px;
+  padding: 15px 35px;
+  gap: 5px;
+  
+}
+
+.ham-burger{
+  margin-right: 3px;
+ }
+/* habit section */
+.habit-container{
+  margin-top: 350px;
+}
+.habit-title{
+  font-size: 2rem;
+}
+.habit-description{
+  font-size: 0.8rem;
+}
+.movement, .time, .practice, .weight-loss{
+ 
+  margin-bottom: 20px;
+ }
+
+}
+
+
+
+
+
+
+
+ 
+  
+
+
