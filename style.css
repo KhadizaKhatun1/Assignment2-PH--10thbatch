@@ -246,6 +246,7 @@ header{
   max-width: 671px;
   margin: 0 auto;
   margin-bottom: 88px;
+  border: 2px solid lawngreen;
 }
 .bmi-title{
   margin-bottom: 14px;
@@ -286,6 +287,7 @@ td{
 }
 .calculation{
   width: 577px;
+  border: 2px solid violet;
 }
 .calculate-bmi{
   font-size: 1.75rem;
@@ -319,7 +321,9 @@ select{
   width: 577px;
   margin-bottom: 30px;
 }
-
+.bmi-description{
+  border: 2px solid red;
+}
 
 
 /* media query for small device */
@@ -417,8 +421,32 @@ select{
  }
  /* bmi calculator */
  .bmi-calculator{
+  border: 2px solid azure;
   flex-direction: column;
  }
+ .chart{
+  margin: 0px;
+ }
+ .bmi-title{
+  font-size: 1.5rem;
+ }
+ 
+ .chart-title, .calculate-bmi{
+  font-size: 1.3rem;
+ }
+ input{
+  width: 105px;
+ }
+ select{
+  width: 170px;
+ }
+ .activity{
+  width: 345px;
+ }
+ .calculation{
+  width: 350px;
+ }
+ 
 
 }
 
