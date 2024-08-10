@@ -305,7 +305,7 @@ td{
   font-size: 1.75rem;
   font-weight: 900;
 }
-.calculate-bmi-description {
+.calculate-bmi-description, .f-banner-description{
   font-weight: 400;
   font-size: 0.875rem;
 }
@@ -362,6 +362,36 @@ select{
   /* gap: 20px; */
   border-radius: 1.125rem;
 }
+/* footer styles start here */
+.footer{
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 2px sandybrown;
+  margin-left: 100px;
+}
+.f-footer{
+  width: 443px;
+  margin-left: 100px;
+  margin-right: 102px;
+}
+.fitness, .service{
+  width: 181px;
+}
+.service{
+  margin-right: 500px;
+}
+
+
+.f-brand{
+  font-weight: 800;
+  font-size: 4.375rem;
+}
+
+.service-title{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 
 
 /* media query for small device */
