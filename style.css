@@ -645,6 +645,8 @@ header, footer{
 }
 .copy{
   font-size: 1rem;
+  text-align: center;
+  margin-bottom: 50px;
 }
  
 
