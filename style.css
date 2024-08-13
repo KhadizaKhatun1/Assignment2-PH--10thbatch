@@ -405,14 +405,30 @@ select{
   left: 5%;
  }
  /* support community */
- .community{
+ .support{
+  max-width: 1440px;
+  margin: 0 auto;
   border: 2px solid red;
   margin: 50px 190px;
+  background-color: rgba(255, 255, 255, 0.10);
+  border-radius: 1.125rem;
  }
- .community img{
-  width: 100%;
+ 
+ .support img{
+  width: 800px;
+  border-radius: 1.125rem;
+  margin:20px 90px 20px 150px;
+  
+ }
+ .support-content{
+  width: 671px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+ 
  }
 /* footer styles start here */
+
 .footer{
   max-width: 1440px;
   margin: 0 auto;
@@ -462,11 +478,14 @@ header, footer{
 
 @media screen and (max-width: 576px) {
   .navbar{
-    text-align: start;
+    margin: 0px;
   }
   .brand{
     margin: 0px;
-    margin-top: 30px;
+    margin-top: 10px;
+  }
+  .nav-links{
+    margin: 0px;
   }
   .habit-img, .run{
     flex-direction: column;
@@ -553,7 +572,11 @@ header, footer{
  .run{
   margin: 20px;
  }
- 
+ .run img{
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
+ }
  .run-img,.team-img{
   width: 100%;
  }
@@ -562,8 +585,6 @@ header, footer{
   width: 300px;
   height: 300px;
   margin: 10px;
-  
- 
   
 }
  
@@ -624,6 +645,25 @@ header, footer{
   display:block;
   
 }
+/* unique(support) section */
+.support, .support-content{
+  margin: 0;
+}
+.support-content{
+  width: 350px;
+}
+.support-img{
+  width: 100%;
+}
+
+.support img{
+  margin: 0px;
+  width: 300px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
 /* footer section starts here */
 .footer{
   flex-direction: column;
@@ -632,13 +672,15 @@ header, footer{
 }
 .f-footer{
   width: 310px;
-  margin: 20px 44px 20px 20px;
+  margin: 20px 44px 0px 20px;
 }
 .f-brand{
   font-size: 3rem;
 }
 .service, .fitness{
   margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 .horizontal{
   margin: 20px 41px 20px 72px;
@@ -646,7 +688,7 @@ header, footer{
 .copy{
   font-size: 1rem;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
  
 
