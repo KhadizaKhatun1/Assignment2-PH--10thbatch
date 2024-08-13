@@ -141,7 +141,7 @@ header{
   font-size: 2rem;
   font-weight: 900;
 }
-/* .banner-container{
+.banner-container{
   margin-right: 200px;
   
 }
@@ -149,7 +149,7 @@ header{
   margin-top: 70px;
   margin-right: 167px;
   margin-left: 100px;
-} */
+}
 
 .btn-img{
   width: 349px;
