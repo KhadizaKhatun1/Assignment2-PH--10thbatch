@@ -237,10 +237,25 @@ header{
   border: 2px solid red;
   background-color: rgb(34, 34, 34);
   border-radius: 1.125rem;
-  margin-top: 50px;
-  margin-right: 25px;
+  justify-content: center;
+  align-items: center;
+  
 }
-.run-img{
+.run-container{
+  border: 2px solid aqua;
+  width: 300px;
+  margin: 40px 200px 40px 54px;
+} 
+.run img{
+  border: 2px solid blue;
+  width: 400px;
+  height: 400px;
+  border-radius: 1.125rem;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+/* .run-img{
   border: 2px solid blue;
   width: 400px;
   height: 400px;
@@ -249,11 +264,7 @@ header{
  
   
 }
-.run-container{
-  border: 2px solid aqua;
-  width: 350px;
-  margin: 41px 200px 40px 54px;
-}
+*/
 
 /* bmi calculator */
 .bmi-container{
@@ -323,7 +334,7 @@ input, select{
   padding: 12px 40px 12px 20px;
   font-size: 1rem;
   font-weight: 400;
-  width: 282px;
+  width: 187px;
   
 }
 .input{
@@ -333,11 +344,11 @@ input, select{
 }
 
 select{
-  width: 350px;
+  width: 248px;
   
 }
 .activity{
-  width: 698px;
+  width: 505px;
   margin-bottom: 30px;
 }
 .bmi-description{
@@ -570,31 +581,29 @@ header, footer{
  }
  /* run section style */
  .run{
-  margin: 20px;
+  margin: 0px;
  }
  .run img{
+  margin-left: 20px;
+  margin-right: 20px;
   width: 300px;
   height: 300px;
-  margin-left: 10px;
+  
+  
  }
- .run-img,.team-img{
+.team-img{
   width: 100%;
  }
- .run-img{
-  border: 2px solid blue;
-  width: 300px;
-  height: 300px;
+ 
+.run-btn{
+  margin: 0px;
+  width: 100%;
+}
+ .run-container{
   margin: 10px;
   
-}
+ }
  
- .run-container{
-  margin: 0px;
-  width: 99%;
- }
- .run-btn{
-  margin-left: 20%;
- }
  /* bmi calculator */
  .bmi-container{
   margin: 0px;
@@ -672,7 +681,7 @@ header, footer{
 }
 .f-footer{
   width: 310px;
-  margin: 20px 44px 0px 20px;
+  margin: 20px 44px 10px 20px;
 }
 .f-brand{
   font-size: 3rem;
