@@ -178,8 +178,9 @@ header{
   text-align: center;
 }
 .play-btn{
-  margin-top: 300px;
-  margin-left: 100px;
+  position: absolute;
+  left: 817px;
+  top: 434.61px;
 }
 .shape{
   width: 40px;
@@ -537,9 +538,9 @@ header, .run, .habit, .bmi-container,.support, .team, footer{
     top: 700px;
 }
 .play-btn{
-  position: absolute;
-  left: -54px;
-  top: 446px;
+  /* position: absolute; */
+  left: 46px;
+  top: 748px;
   z-index: 2;
 }
  .banner-container{
