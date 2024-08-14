@@ -680,9 +680,11 @@ header, .run, .habit, .bmi-container,.support, .team, footer{
 }
 .support-content{
   width: 350px;
+  /* margin-left: 20px; */
 }
 .support-img{
   width: 100%;
+ 
 }
 
 .support img{
@@ -690,7 +692,7 @@ header, .run, .habit, .bmi-container,.support, .team, footer{
   width: 300px;
   height: 200px;
   margin-top: 30px;
-  margin-left: 25px;
+  margin-left: 50px;
   margin-bottom: 30px;
 }
 /* footer section starts here */
