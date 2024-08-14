@@ -177,6 +177,10 @@ header{
   z-index: 1;
   text-align: center;
 }
+.play-btn{
+  margin-top: 300px;
+  margin-left: 100px;
+}
 .shape{
   width: 40px;
   height: 40px;
@@ -532,7 +536,12 @@ header, .run, .habit, .bmi-container,.support, .team, footer{
     left: 10px;
     top: 700px;
 }
-
+.play-btn{
+  position: absolute;
+  left: -54px;
+  top: 446px;
+  z-index: 2;
+}
  .banner-container{
   margin: 0;
  }
