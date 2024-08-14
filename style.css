@@ -53,6 +53,7 @@
   font-size: 1.125rem;
   font-weight: 600;
   margin-right: 5px;
+  border: none;
   
 }
 .btn-secondary{
@@ -83,7 +84,7 @@
 }
 /* navbar style */
 header{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 715px;
 }
 .navbar{
@@ -108,12 +109,13 @@ header{
   margin: 0 auto;
 }
 
+
 .brand{
   font-weight: 800;
   font-size: 2.25rem;
   margin-top: 30px;
   margin-right: 400px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   
 }
 #home{
@@ -141,7 +143,7 @@ header{
   font-size: 2rem;
   font-weight: 900;
 }
-.banner-container{
+/* .banner-container{
   margin-right: 200px;
   
 }
@@ -149,18 +151,18 @@ header{
   margin-top: 70px;
   margin-right: 167px;
   margin-left: 100px;
-}
+} */
 
 .btn-img{
   width: 349px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: absolute;
   left: 900px;
   top: 140px;
   
 }
 .btn1{
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   position: absolute;
   left: 1107px;
   top: 260px;
@@ -168,7 +170,7 @@ header{
   text-align: center;
 }
 .btn2{
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   position: absolute;
   left: 764px;
   top: 556px;
@@ -192,7 +194,7 @@ header{
 }
 /* main section starts here */
 .habit{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 50px;
@@ -200,7 +202,7 @@ header{
 .habit-img, .run, .team{
   max-width: 1440px;
   margin: 0 auto;
-  border: 2px solid aqua;
+  /* border: 2px solid aqua; */
 }
 
 /* habit section */
@@ -231,7 +233,7 @@ header{
 .run{
   max-width: 1440px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: rgb(34, 34, 34);
   border-radius: 1.125rem;
   justify-content: center;
@@ -239,12 +241,12 @@ header{
   
 }
 .run-container{
-  border: 2px solid aqua;
+  /* border: 2px solid aqua; */
   width: 300px;
   margin: 40px 200px 40px 54px;
 } 
 .run img{
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 400px;
   height: 400px;
   border-radius: 1.125rem;
@@ -264,15 +266,15 @@ header{
 */
 
 /* bmi calculator */
-.bmi-container{
+/* .bmi-container{
   border: 2px solid blue;
  
-}
+} */
 .bmi{
   max-width: 671px;
   margin: 0 auto;
   margin-bottom: 88px;
-  border: 2px solid lawngreen;
+  /* border: 2px solid lawngreen; */
 }
 .bmi-title{
   margin-bottom: 14px;
@@ -314,7 +316,7 @@ td{
 }
 .calculation{
   width: 700px;
-  border: 2px solid violet;
+  /* border: 2px solid violet; */
 }
 .calculate-bmi{
   font-size: 1.75rem;
@@ -348,14 +350,14 @@ select{
   width: 505px;
   margin-bottom: 30px;
 }
-.bmi-description{
+/* .bmi-description{
   border: 2px solid red;
-}
+} */
 /* team section */
 .team-img-container{
   border-radius: 1.125rem;
   background: rgba(255, 255, 255, 0.1);
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
 }
 .team{
   max-width: 1440px;
@@ -363,7 +365,7 @@ select{
  
 }
 .team-content{
-  border: 2px solid antiquewhite;
+  /* border: 2px solid antiquewhite; */
   max-width: 671px;
   margin: 0 auto;
   text-align: center;
@@ -385,7 +387,7 @@ select{
   gap: 1rem;
   margin:20px 20px;
   border-radius: 1.125rem;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   
  
  }
@@ -416,7 +418,7 @@ select{
  .support{
   max-width: 1440px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 50px 190px;
   background-color: rgba(255, 255, 255, 0.10);
   border-radius: 1.125rem;
@@ -441,16 +443,18 @@ select{
  }
 /* footer styles start here */
 
-.footer{
+footer{
   max-width: 1440px;
   margin: 0 auto;
-  border: 2px sandybrown;
-  margin-left: 100px;
+  /* border: 2px solid red; */
+  /* margin-left: 100px; */
 }
 .f-footer{
   width: 443px;
-  margin-left: 100px;
   margin-right: 102px;
+  
+  /* margin-left: 100px;
+   */
 }
 .fitness, .service{
   width: 181px;
@@ -479,15 +483,11 @@ select{
   font-weight: 400;
 }
 
-header, .run, .habit, .bmi-container, .team, footer{
+header, .run, .habit, .bmi-container,.support, .team, footer{
   margin:50px 190px ;
+  
 }
-navbar{
-  margin: 0px;
-}
- footer{
-  margin: 10px;
-}
+
 
 /* media query for small device */
 
@@ -501,7 +501,7 @@ navbar{
   }
   .brand{
     margin: 0px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .nav-links{
     margin: 0px;
@@ -546,6 +546,7 @@ navbar{
 .workout-video{
   font-size: 1.5rem;
   font-weight: 900;
+ 
 }
 .banner-description{
   font-size: 0.75rem;
@@ -554,6 +555,7 @@ navbar{
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
   font-weight: 900;
+  
 }
 .btn-primary, .btn-secondary{
   font-size: 0.7rem;
@@ -610,8 +612,11 @@ navbar{
   margin: 10px;
   
  }
- .r-btn, .cal-btn{
+ .r-btn, .cal-btn, .visit-btn{
   font-size: 1rem;
+ }
+ .visit-btn{
+  width: 70%;
  }
  
  /* bmi calculator */
@@ -628,11 +633,11 @@ navbar{
  .chart{
   margin: 0px;
  }
- .bmi-title,.team-title{
+ .bmi-title,.team-title, .support-title{
   font-size: 1.5rem;
  }
  
- .chart-title, .calculate-bmi, .support-title{
+ .chart-title, .calculate-bmi{
   font-size: 1.3rem;
  }
  input{
@@ -646,6 +651,7 @@ navbar{
  }
  .calculation{
   width: 350px;
+  margin-left: 10px;
  }
  /* team part style */
  
@@ -701,18 +707,18 @@ navbar{
 }
 .service, .fitness{
   margin-left: 20px;
-  margin-top: 10px;
+  
   margin-bottom: 0px;
 }
 .horizontal{
-  margin: 20px 50px 20px 20px;
+  margin: 20px 50px 20px 50px;
 }
 .copy{
   font-size: 1rem;
   text-align: center;
   margin-bottom: 100px;
 }
- 
+
 
 }
 
