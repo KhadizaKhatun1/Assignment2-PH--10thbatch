@@ -429,9 +429,10 @@ select{
   margin-bottom: 30px;
  }
  .support img{
-  width: 800px;
+  width: 100%;
   border-radius: 1.125rem;
   margin:20px 90px 20px 150px;
+ 
   
  }
  .support-content{
